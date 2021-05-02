@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>PetSmile</display-name>
+  <servlet>
+  	<servlet-name>UsuarioServlet</servlet-name>
+  	<display-name>UsuarioServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.petsmile.servlets.UsuarioServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AgendaServlet</servlet-name>
+  	<display-name>AgendaServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.petsmile.servlets.AgendaServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MascotaServlet</servlet-name>
+  	<display-name>MascotaServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.petsmile.servlets.MascotaServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DuenoServlet</servlet-name>
+  	<display-name>DuenoServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.petsmile.servlets.DuenoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UsuarioServlet</servlet-name>
+  	<url-pattern>/UsuarioServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AgendaServlet</servlet-name>
+  	<url-pattern>/AgendaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MascotaServlet</servlet-name>
+  	<url-pattern>/MascotaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DuenoServlet</servlet-name>
+  	<url-pattern>/DuenoServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
